@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  /* Login */
+
+  #login h1{
+    font-family: 'Sirin Stencil', cursive;
+color: snow;
+  }
+  .Login {
+    margin-top: 20px;
+    margin-left: 30%;
+    max-width: 600px;
+  height: 600px;
+    padding: 16px;
+    background: rgba(4, 4, 4, 0.56);
+    border: 1px solid;
+    margin-bottom: 200px;
+    color: snow;
+  }
+ .search input[type=text] {
+   color: black;
+   width: 20%;
+ }
+  .Login input[type=email], input[type=password] , input[type=text] {
+   outline: none;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 15px 40px 15px 10px;
+    letter-spacing: 2px;
+    width: 87%;
+    border: none;
+    border: 1px solid #DCCBCF;
+    -webkit-appearance: none;
+    margin-top: 25px;
+
+    background: transparent;
+	font-family: 'Sirin Stencil', cursive;
+  }
+  
+ 
+  
+  
+  .p-bottom-w3ls {
+    font-size: 16px;
+    color: #eee;
+    margin-top: 5em;
+    text-align: center;
+	  text-transform: none;
+	  float:left;
+    }
+.p-bottom-w3ls1 {
+    font-size: 16px;
+    color: #eee;
+    margin-top: 6em;
+    text-align: center;
+	text-transform: none;
+	float:right;
+}
+.p-bottom-w3ls a,.p-bottom-w3ls1 a{
+    color: #8BC34A;
+	outline:none;
+	text-decoration:none;
+}
+.Login button{
+  margin-top: 20px;
+  padding: 10px;
+}
+/* Register */
+.hiddenFileInput > input{
+  height: 100%;
+  width: 100;
+  opacity: 0;
+}
+.hiddenFileInput{
+  border: 1px solid #ccc;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  cursor: pointer;
+  
+  background: center center no-repeat;
+  border-radius: 50%;
+  background-image:  url(http://www.gstatic.com/images/icons/material/system/2x/photo_camera_grey600_24dp.png);
+
+}
+  /* Header */
+  #menu{
+    width: 100%;
+  }
+  #menu a{
+    font-weight: bolder;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace ;
+
+  }
+  #menu  li{
+    display: inline-block;
+    padding: 10px;
+
+  }
+  #menu  li a{
+   text-decoration: none;
+   color: black;
+    
+  }
+  #menu input[type=text]{
+    width: 500px;
+    padding: 10px;
+    color: black;
+   
+  }
+  #menu .icon{
+    font-size: 30px;
+  }
+  .dropbtn {
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .hiddenUser{
+    border: 1px solid #ccc;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background: center center no-repeat;
+    border-radius: 50%;
+background-size: cover;    
+    background-image:  url(https://icons-for-free.com/iconfiles/png/512/home+page+profile+user+icon-1320184025620798710.png);
+
+  
+  }
+  
+
+  
+
+  /* Body1 */
+.bd1{
+    height: 20%;
+    position: relative;
+  }
+  .bd1 .slide img{
+    height: 700px;
+    width: 100%;
+  }
+  .bd1 #categories{
+    position: absolute;
+    border: 1px solid red;
+    top: 70px;
+    left: 15px;
+    width: 20%;
+    height: 60%;
+  }
+
+  #categories{
+    background-color: snow;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+  }
+
+  #categories li{
+    list-style-type: none;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+  }
+  #categories .cate{
+    text-align: center;
+    font-size: large;
+  }
+  .log{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+   
+  }
+
+  /* Body 2 */
+ .bd2 {
+  font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    background-color: snow;
+    width: 80%;
+    height: 100%;
+    margin:auto;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  1fr;
+  }
+  .content h1{
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+
+   /* products */
+   #product {
+    text-align: center;
+    padding: 5px;
+
+   
+}
+
+.product_block {
+    border: 1px solid #eeeeee;
+    height: 100%;
+}
+
+.product_image img {
+    width: 100%;
+    height: auto;
+}
+.product_video video {
+  width: 100%;
+  height: 171.328px;
+}
+.product_price{
+  font-weight: bold;
+}
+.product_price #oldPrice{
+  text-decoration: line-through;
+}
+.product_price #price{
+color: red;
+}
+.product_add-t-cart button:hover {
+    background-color: brown;
+}
+
+.checked {
+    color: orange;
+}
+.button button{
+  padding: 10px;
+  margin-left: 10px;
+  border-radius:12px;
+  margin-bottom: 5px;
+ }
+
+ .button button:hover{
+background-color: thistle; 
+}
+/* Footer */
+.Footer {
+  background-image: url('/bkgr.png');
+  border: 1px solid black;
+  opacity: 0.6;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   height: 300px;
+}
+#footer img{
+  margin-top: 5%;
+  width: 80%;
+  height: 500px;
+}
+.Footer ul{
+
+  list-style-type: none;
+  margin: auto;
+}
+.Footer li,h3{
+  text-align: left;
+  padding-left: 10px;
+  color: whitesmoke;
+}
+#footer1{
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 400px;
+  margin: auto;
+  margin-bottom: 50px;
+width: 80%;
+}
+#footer1 ul img{
+  padding-left: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+#footer1 .f2{
+  padding-top: 14px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  }
+ 
+/* Detail */
+.detail{
+  width: 80%;
+    height: 100%;
+    margin:auto;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#detail {
+  text-align: left;
+  overflow-y: auto;
+  font-family:'Courier New', Courier, monospace ;
+font-weight: bold;
+
+}
+
+
+#detail li{
+  border-bottom: 1px dotted #ccc;
+  color: #666666;
+    padding: 10px;
+}
+#detail .old_price{
+  text-decoration: line-through;
+}
+#detail .price{
+  color: red;
+}
+.detail img{
+  width: 440px;
+}
+.detail video{
+  width: 800px;
+}
+.btn_addcart{
+  background: url(/btn_addcart.gif) ;
+    width: 170px;
+    height: 44px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 24px;
+    font-family: "customFont";
+    text-transform: uppercase;
+    border: none;
+    white-space: nowrap;
+}
+#comment{
+    margin-bottom: 5px;
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+.comment{
+  margin-top: 20px;
+  display: grid;
+
+}
+.comment textarea{
+  padding: 10px;
+  width: 80%;
+}
+.comment button{
+  position: absolute;
+  padding: 9px;
+  width: 5%;
+}
+/* BOOK */
+#insert{
+  width: 100%;
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+
+}
+.insert{
+  text-align: left;
+  width: 100%;
+  margin: auto;
+  box-shadow: 5px 5px 5px 5px slategray;
+  color: black;
+
+}
+.insert input[type=date] , input[type=text] {
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 5px;
+  
+}
+.insert button{
+  width: 80%;
+  padding: 10px;
+margin: 10%;
+background-color: brown;
+}
+.insert #status{
+height: 200px;
+}
+
+#insert input{
+  color: black;
+}
+
+/* Order */
+.mama{
+  width: 80%;
+  margin: auto; 
+  box-shadow: 5px 5px 5px 5px slategray;
+
+}
+.mama td, .mama th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.mama tr:nth-child(even){background-color: #f2f2f2;}
+
+.mama tr:hover {background-color: #ddd;}
+
+.mama th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+.mama tr img{
+    width: 100px;
+}
+.tim{
+   padding: 5px;
+  border: none;
+}
+.viewcomment{
+  color: black;
+  text-align: left;
+  font-family: 'Sirin Stencil', cursive;
+  width: 50%;
+  margin: auto;
+}
+.count{
+  border-bottom: 1px dotted #ccc;
+color: black;
+}
+.count .bl{
+  margin-left: 10px;
+}
+.count{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
